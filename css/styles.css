@@ -54,7 +54,7 @@ letter-spacing: 0.02em;
     background-color: #2F303A;
 }
 .hero-title{
-    font-weight: 900;
+font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
@@ -122,13 +122,16 @@ color: var(--contacts-color);
 }
 .footer-address{
 font-family: 'Roboto';
+font-style: normal;
+display: block;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+text-decoration: none;
 color: var(--header-title-color);
 }
-.logo{
+.logo-web{
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -136,10 +139,26 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--accent-color);
 }
+.logo-studio {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--main_color);
+}
+.logo-studio-footer{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-btn-color);   
+}
 .footer-tel, .footer-mail{
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--contacts-color);
 }
 .footer-tel:hover,.footer-tel:focus, 
@@ -154,7 +173,7 @@ background: #F5F4FA;
 border-radius: 4px;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.26;
+line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 background-color: var(--portfolio-btn);
